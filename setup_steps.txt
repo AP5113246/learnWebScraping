@@ -1,0 +1,8 @@
+These are the steps I've taken to set up the webscraping project that I am doing to learn about webscraping.
+Videos:
+    
+    Web Scraping With Python 101 by Kalle Hallden : https://www.youtube.com/watch?v=CHUxmVVH2AQ
+        1) python -m venv env
+        2)  env\Scripts\activate
+        3) pip install selenium 
+    
