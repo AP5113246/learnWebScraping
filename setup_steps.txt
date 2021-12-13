@@ -5,4 +5,5 @@ Videos:
         1) python -m venv env
         2)  env\Scripts\activate
         3) pip install selenium 
-    
+        4) Needs chromedriver  for it to work --> find the appropriate chrome 
+    https://dev.to/somedood/please-dont-commit-env-3o9h - article about env files
