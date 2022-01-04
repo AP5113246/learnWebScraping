@@ -1,9 +1,14 @@
-from selenium import webdriver
+rom selenium import webdriver
+from selenium.webdriver.support.select import By # This is the new 'standard'
 
 url = 'https://www.youtube.com/c/KalleHallden/videos'
 browser = webdriver.Chrome()
 browser.get(url)
-browser.find_element_by_xpath('//*[@id="thumbnail"]').click()
+#browser.find_element_by_xpath('//*[@id="thumbnail"]').click()
+
+browser.find_element(By.XPATH, '//*[@id="video-title"]').click() # You can also just do the one below. This way just finds the id via an xpath, which is more complicated.
+# browser.find_element(By.ID, "video-title").click()
+
 # browser.find_element_by_xpath('//*[@id="img"]').click()  <-- this didn't work either
 
 
